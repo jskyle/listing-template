@@ -308,8 +308,10 @@ Header section
 	width: 100%;
 	left: 0;
 	top: 0;
-	padding: 25px 35px 0;
+	padding: 20px 35px 20px;
 	z-index: 99;
+	background-color: rgba(118,118,118, 0.2);
+	backdrop-filter: blur(1px);
 }
 
 .site-logo {
@@ -331,7 +333,8 @@ Header section
 .main-menu li a {
 	display: block;
 	font-size: 18px;
-	color: black;
+	font-weight: 900;
+	color: #fff;
 	margin-right: 60px;
 	padding: 5px 5px;
 }
@@ -439,6 +442,13 @@ Hero section
 .hero-slider .owl-nav button.owl-next {
 	background: #fff;
 	color: #003366;
+}
+
+.main-intro-container {
+	background-color: rgba(118,118,118, 0.5);
+	backdrop-filter: blur(3px);
+	border-radius: 10px;
+	border: 1px solid darkgray;
 }
 
 .hero-nav-slider-warp {
