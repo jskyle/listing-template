@@ -172,6 +172,11 @@ Commom elements
 	color: #fff;
 }
 
+.site-btn.sb-dark {
+	border: 1px solid #000;
+	color: #000;
+}
+
 .site-btn.sb-light:hover {
 	color: #fff;
 }
@@ -412,6 +417,13 @@ Hero section
 	transition: all 0.5s ease 0.2s;
 }
 
+/* .owl-stage {
+	height: 450px;
+}
+.owl-stage-outer {
+	height: 450px;
+} */
+
 .hero-slider .owl-nav {
 	position: absolute;
 	right: 0;
@@ -445,10 +457,11 @@ Hero section
 }
 
 .main-intro-container {
-	background-color: rgba(118,118,118, 0.5);
-	backdrop-filter: blur(3px);
+	background-color: rgba(118,118,118, 0.1);
+	backdrop-filter: blur(2px);
 	border-radius: 10px;
 	border: 1px solid darkgray;
+	padding: 40px 10px !important;
 }
 
 .hero-nav-slider-warp {
@@ -845,7 +858,7 @@ Call to action section
  -------------------------*/
 
 .call-to-action-section {
-	padding: 60px 0;
+	padding: 0px 0px 60px 0px;
 }
 
 .call-to-action-section h2 {
@@ -859,7 +872,7 @@ Footer section
 
 .footer-section {
 	padding: 65px 0;
-	background: #353649;
+	background: rgb(240,240,240);
 }
 
 .footer-widget {
@@ -879,18 +892,17 @@ Footer section
 
 .footer-widget ul li a {
 	display: block;
-	color: #acaebc;
-	padding: 2px 0;
-	margin-bottom: 8px;
+	color: #000;
+	padding: 1px 0;
 }
 
 .footer-social a {
 	display: inline-table;
 	width: 25px;
 	height: 25px;
-	border: 1px solid #7e7f8f;
+	border: 1px solid #000;
 	border-radius: 50%;
-	color: #7e7f8f;
+	color: #000;
 	font-size: 12px;
 	text-align: center;
 	margin-right: 6px;
@@ -1443,20 +1455,15 @@ Contact page
 }
 
 .map {
-	position: absolute;
+	max-height: 400px;
 	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
+	height: 400px;
 	background: #ddd;
 }
 
 .map iframe {
-	position: absolute;
 	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
+	height: 400px;
 }
 
 /* ----------------
