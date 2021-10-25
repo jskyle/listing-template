@@ -120,8 +120,12 @@ Helper CSS
 }
 
 .spad {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.property-details-section {
+	padding-top:  70px !important;
 }
 
 .text-white h1,
@@ -871,12 +875,12 @@ Footer section
  ---------------------*/
 
 .footer-section {
-	padding: 65px 0;
+	padding: 65px 0 30px;
 	background: rgb(240,240,240);
 }
 
 .footer-widget {
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .footer-widget h5 {
@@ -1163,9 +1167,17 @@ About page
 	color: #73778e;
 	margin-bottom: 20px;
 	padding-left: 50px;
-	background-image: url("../img/check.png");
+	/* background-image: url("../img/check.png");
 	background-repeat: no-repeat;
-	background-position: left top 6px;
+	background-position: left top 6px; */
+}
+
+.property-overview-text ul li:before {
+	content: '✓';
+	color: #003366;
+	margin-bottom: -10px;
+	padding-right: 10px;
+	font-size: 30px;
 }
 
 .property-text-warp {
