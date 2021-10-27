@@ -149,14 +149,14 @@ Commom elements
 
 .site-btn {
 	display: inline-block;
-	border: 1px solid #12c7b8;
+	border: 1px solid #000;
 	font-size: 14px;
 	font-weight: 600;
 	min-width: 131px;
 	padding: 14px 25px;
 	text-transform: uppercase;
 	background: transparent;
-	color: #12c7b8;
+	color: #000;
 	line-height: normal;
 	cursor: pointer;
 	text-align: center;
@@ -1165,7 +1165,7 @@ About page
 .property-overview-text ul li {
 	font-size: 18px;
 	color: #73778e;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	padding-left: 50px;
 	/* background-image: url("../img/check.png");
 	background-repeat: no-repeat;

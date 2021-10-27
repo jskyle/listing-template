@@ -232,25 +232,22 @@
 						<div class="col-lg-6">
 							<div class="property-overview-text">
 								<ul>
-									<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-									<li>Praesent tincidunt diam in ante faucibus tristique.</li>
-									<li>Vivamus id nisl sed mi varius lobortis.</li>
-									<li>Suspendisse sit amet erat placerat, molestie neque id</li>
-									<li>Fusce pretium libero sit amet ipsum posuere pretium.</li>
-									<li>Praesent tincidunt diam in ante faucibus tristique.</li>
+									<li>Brand New Construction</li>
+									<li>Three Story Modern Home</li>
+									<li>Open Concept Floorplan</li>
+									<li>Master Suite with Private Balcony</li>
+									<li>Third Floor Rooftop Terrace</li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-lg-6">
 							<div class="property-overview-text">
-
 								<ul>
-									<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-									<li>Praesent tincidunt diam in ante faucibus tristique.</li>
-									<li>Vivamus id nisl sed mi varius lobortis.</li>
-									<li>Suspendisse sit amet erat placerat, molestie neque id</li>
-									<li>Fusce pretium libero sit amet ipsum posuere pretium.</li>
-									<li>Praesent tincidunt diam in ante faucibus tristique.</li>
+									<li>Mountain Views</li>
+									<li>Three Car Garage</li>
+									<li>Mudroom</li>
+									<li>Great Location</li>
+									<li>Blue Ribbon Schools</li>
 								</ul>
 							</div>
 						</div>
@@ -348,11 +345,11 @@
 	<!-- Design section end-->
 	
 	<!-- Location section-->
-	<!-- <section class="location-section spad" id="video">
+	<section class="location-section spad" id="video">
 		<div class="container">
-			<div class="section-title">
+			<!-- <div class="section-title">
 				<h2>floor plans</h2>
-			</div>
+			</div> -->
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1">
 					<div class="tab-content location-tab">
@@ -360,7 +357,7 @@
 							<img src="img/location/1.jpg" alt="">
 							<a href="https://www.youtube.com/watch?v=Sz_1tkcU0Co" class="play-btn"><img src="img/play-icon.png" alt=""></a>
 						</div>
-						<div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+						<!-- <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
 							<img src="img/location/2.jpg" alt="">
 							<a href="https://www.youtube.com/watch?v=7JTHzDiJ2NA" class="play-btn"><img src="img/play-icon.png" alt=""></a>
 						</div>
@@ -401,10 +398,10 @@
 							</a>
 						</li>
 					</ul>
-				</div>	
+				</div>	 -->
 			</div>
 		</div>
-	</section> -->
+	</section>
 	<!-- Location section end-->
 
 	<!-- Features section -->
@@ -484,23 +481,39 @@
 							<li class="text-black font-weight-bold" style="font-size: 20px;">Anna Nawalany</li>
 							<li class="text-black">Realtor&#174;, RENE&#174;, PSA&#174;, SFR&#174;</li>
 							<li class="text-black">Equity Colorado Real Estate</li>
-							<li class="text-black mt-2"><a href="" class="font-weight-bold" style="font-size: 16px;">720-289-7544</a></li>
-							<li><a href="" class="text-black">Anna@anhomesearch.com</a></li>
-							<li><a href="" class="text-black">www.anhomesearch.com</a></li>
+							<li class="text-black mt-2"><a href="tel:720-289-7544" class="font-weight-bold" style="font-size: 16px;">720-289-7544</a></li>
+							<li><a href="mailto:anna@anhomesearch.com" class="text-black">anna@anhomesearch.com</a></li>
+							<li><a href="https://www.anhomesearch.com" class="text-black">www.anhomesearch.com</a></li>
 						</ul>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-5 col-sm-5">
-					<form action="mailto:anna@anhomesearch.com">
-						<button class="site-btn sb-dark sb-big btn-block mt-3" type="submit"> Request Info</button>
-					</form>
-					<div class="footer-social mt-3">
-						<a href=""><i class="fa fa-facebook"></i></a>
-						<a href=""><i class="fa fa-instagram"></i></a>
-						<a href=""><i class="fa fa-pinterest"></i></a>
+											<div class="footer-social mt-2">
+												<a href=""><i class="fa fa-facebook"></i></a>
+												<a href=""><i class="fa fa-instagram"></i></a>
+												<a href=""><i class="fa fa-pinterest"></i></a>
+											</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-4">
+				</div>
+				<div class="col-lg-4 col-md-5 col-sm-5">
+						<form class="contact-form" action="mail.php" method="POST">
+							<div class="form-field">
+								<img src="img/icons/profile.png" alt="">
+								<input type="text" placeholder="Full Name" name="full-name">
+							</div>
+							<div class="form-field">
+								<img src="img/icons/envelope.png" alt="">
+								<input type="text" placeholder="Email Address" name="email">
+							</div>
+							<div class="form-field">
+								<img src="img/icons/envelope.png" alt="">
+								<input type="text" placeholder="Phone Number" name="phone">
+							</div>
+							<div class="form-field">
+								<img src="img/icons/chat.png" alt="">
+								<textarea placeholder="Message" name="message"></textarea>
+							</div>
+							<button class="site-btn" type="submit">send</button>
+						</form>
 				</div>
 			</div>
 	</footer>
