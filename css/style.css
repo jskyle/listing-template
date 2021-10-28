@@ -421,10 +421,10 @@ Hero section
 	transition: all 0.5s ease 0.2s;
 }
 
-/* .owl-stage {
-	height: 450px;
+.owl-stage {
+	max-height: 436px;
 }
-.owl-stage-outer {
+/* .owl-stage-outer {
 	height: 450px;
 } */
 
